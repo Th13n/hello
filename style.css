@@ -20,17 +20,9 @@
       align-items: center;
       color: white;
   }
-  .logo {
-      width: 25px;
-      height: 25px;
-      
-  }
+
   .nav_link {
       width:500px;
       display: flex;
       justify-content: space-around;
-  }
-  .button {
-      text-decoration: none;
-      color:white;
   }
