@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
-  .header {
+  .headbar {
     height: 70px;
     background-color: #41403F;
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-between;
   
   }
-  .leftheader {
+  .left_headbar {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -25,12 +25,12 @@
       height: 25px;
       
   }
-  .button {
+  .nav_link {
       width:500px;
       display: flex;
       justify-content: space-around;
   }
-  .realbutton {
+  .button {
       text-decoration: none;
       color:white;
   }
