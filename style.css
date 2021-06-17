@@ -1,4 +1,36 @@
-span {
-    text-decoration: none;
-    font-weight: 400;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  .header {
+    height: 70px;
+    background-color: #41403F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 40px;
+    justify-content: space-between;
+  
+  }
+  .leftheader {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: white;
+  }
+  .logo {
+      width: 25px;
+      height: 25px;
+      
+  }
+  .button {
+      width:500px;
+      display: flex;
+      justify-content: space-around;
+  }
+  .realbutton {
+      text-decoration: none;
+      color:white;
+  }
